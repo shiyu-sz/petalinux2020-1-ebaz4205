@@ -9,7 +9,7 @@
 ## kernel_size --> size of the kernel image in hex
 ###############
 fdt_addr=0x1000
-imageub_addr=0x10000000
+imageub_addr=0x01000000
 kernel_addr=0x80000
 kernel_offset=0x1E00200
 kernel_size=0x7800000

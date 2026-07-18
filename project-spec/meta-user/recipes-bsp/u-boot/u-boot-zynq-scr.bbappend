@@ -79,14 +79,14 @@ QSPI_KERNEL_IMAGE_versal = "image.ub"
 
 NAND_KERNEL_IMAGE = "image.ub"
 
-FIT_IMAGE_LOAD_ADDRESS = "${@append_baseaddr(d,"0x10000000")}"
+FIT_IMAGE_LOAD_ADDRESS = "${@append_baseaddr(d,"0x01000000")}"
 
-QSPI_FIT_IMAGE_LOAD_ADDRESS = "${@append_baseaddr(d,"0x10000000")}"
+QSPI_FIT_IMAGE_LOAD_ADDRESS = "${@append_baseaddr(d,"0x01000000")}"
 QSPI_FIT_IMAGE_SIZE = "0x6400000"
 QSPI_FIT_IMAGE_SIZE_zynqmpdr = "0x3F00000"
 QSPI_FIT_IMAGE_SIZE_zynq = "0xF00000"
 
-NAND_FIT_IMAGE_LOAD_ADDRESS = "${@append_baseaddr(d,"0x10000000")}"
+NAND_FIT_IMAGE_LOAD_ADDRESS = "${@append_baseaddr(d,"0x01000000")}"
 NAND_FIT_IMAGE_SIZE = "0x6400000"
 
 FIT_IMAGE = "image.ub"
